@@ -21,7 +21,7 @@ int main(int argc, char *argv[]) {
     pipe(vetor_pipe);
     pipe(vetor_pipe_volta);
     int num = 1;
-    i = 1;
+    i = 1;//Começa em 1
     
     while((pid_filho == 0) & (i < qtde)) {
         //printf("Criando filho %d\n", i);
